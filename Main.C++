@@ -1,33 +1,28 @@
 #include <iostream>
 using namespace std;
-
+string response;
 int add(float a, float b) {
-    string pause;
-    cout << a + b << "\n" << "Type anything once ready to close" << "\n";
-    cin >> pause;
+    cout << a + b << "\n";
+    cin >> response;
 };
 
 int subtract(float a, float b) {
-    string pause;
-    cout << a - b << "\n" << "Type anything once ready to close" << "\n";
-    cin >> pause;
+    cout << a - b << "\n";
+    cin >> response;
 };
 
 int divide(float a, float b){
-    string pause;
-    cout << a / b << "\n" << "Type anything once ready to close" << "\n";
-    cin >> pause;
+    cout << a / b << "\n";
+    cin >> response;
 };
 
 int multiply(float a, float b){
-    string pause;
-    cout << a * b << "\n" << "Type anything once ready to close" << "\n";
-    cin >> pause;
+    cout << a * b << "\n";
+    cin >> response;
 };
 
 int main(){
     cout << "enter what you'd like to do (Add, Subtract, Multiply, or Divide): ";
-    string response;
     cin >> response;
     float a,b;
     if(response == "Add"){
@@ -59,7 +54,7 @@ int main(){
         divide(a,b);
     }
     else{
-        cout << "error 44";
+        cout << "Error 44";
     };
 
 }
