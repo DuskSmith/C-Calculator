@@ -26,7 +26,7 @@ int multiply(float a, float b){
 };
 
 int main(){
-    cout << "enter what you'd like to do(Add,Subtract, Multiply, or Divide): ";
+    cout << "enter what you'd like to do (Add, Subtract, Multiply, or Divide): ";
     string response;
     cin >> response;
     float a,b;
