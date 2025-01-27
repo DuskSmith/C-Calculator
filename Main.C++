@@ -2,19 +2,27 @@
 using namespace std;
 
 int add(float a, float b) {
-    cout << a + b;
+    string pause;
+    cout << a + b << "\n" << "Type anything once ready to close" << "\n";
+    cin >> pause;
 };
 
 int subtract(float a, float b) {
-    cout << a - b;
+    string pause;
+    cout << a - b << "\n" << "Type anything once ready to close" << "\n";
+    cin >> pause;
 };
 
 int divide(float a, float b){
-    cout << a / b;
+    string pause;
+    cout << a / b << "\n" << "Type anything once ready to close" << "\n";
+    cin >> pause;
 };
 
 int multiply(float a, float b){
-    cout << a * b;
+    string pause;
+    cout << a * b << "\n" << "Type anything once ready to close" << "\n";
+    cin >> pause;
 };
 
 int main(){
